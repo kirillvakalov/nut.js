@@ -1,8 +1,8 @@
 import { fetchFromUrl, loadImageResource } from "./imageResources.function";
 import { mockPartial } from "sneer";
-import { ImageReader, ProviderRegistry } from "@nut-tree/provider-interfaces";
+import { ImageReader, ProviderRegistry } from "@kirillvakalov/nut-tree__provider-interfaces";
 import { join } from "path";
-import { ColorMode } from "@nut-tree/shared";
+import { ColorMode } from "@kirillvakalov/nut-tree__shared";
 
 const loadMock = jest.fn();
 const providerRegistryMock = mockPartial<ProviderRegistry>({

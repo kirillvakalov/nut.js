@@ -1,7 +1,7 @@
-import { Button, isPoint, Point } from "@nut-tree/shared";
+import { Button, isPoint, Point } from "@kirillvakalov/nut-tree__shared";
 import { busyWaitForNanoSeconds, sleep } from "./sleep.function";
 import { calculateMovementTimesteps, EasingFunction, linear } from "./mouse-movement.function";
-import { ProviderRegistry } from "@nut-tree/provider-interfaces";
+import { ProviderRegistry } from "@kirillvakalov/nut-tree__provider-interfaces";
 
 /**
  * Config object for {@link MouseClass} class

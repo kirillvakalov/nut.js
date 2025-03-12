@@ -1,6 +1,6 @@
 import { libnut } from "../import_libnut";
-import { Button, Point } from "@nut-tree/shared";
-import { MouseProviderInterface } from "@nut-tree/provider-interfaces";
+import { Button, Point } from "@kirillvakalov/nut-tree__shared";
+import { MouseProviderInterface } from "@kirillvakalov/nut-tree__provider-interfaces";
 
 export default class MouseAction implements MouseProviderInterface {
   public static buttonLookup(btn: Button): any {

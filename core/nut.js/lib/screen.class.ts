@@ -23,11 +23,11 @@ import {
   WindowCallback,
   WindowResultFindInput,
   WordQuery
-} from "@nut-tree/shared";
+} from "@kirillvakalov/nut-tree__shared";
 import { generateOutputPath } from "./generate-output-path.function";
 import { timeout } from "./util/timeout.function";
 import { Window } from "./window.class";
-import { ProviderRegistry } from "@nut-tree/provider-interfaces";
+import { ProviderRegistry } from "@kirillvakalov/nut-tree__provider-interfaces";
 import {
   createMatchRequest,
   getMatchResult,

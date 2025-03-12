@@ -1,4 +1,4 @@
-import { WindowElement, WindowElementDescription } from "@nut-tree/shared";
+import { WindowElement, WindowElementDescription } from "@kirillvakalov/nut-tree__shared";
 
 /**
  * An ElementInspectionProvider provides methods to list and inspect window elements

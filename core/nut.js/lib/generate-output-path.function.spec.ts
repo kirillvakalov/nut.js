@@ -1,6 +1,6 @@
 import { join } from "path";
 import { cwd } from "process";
-import { FileType } from "@nut-tree/shared";
+import { FileType } from "@kirillvakalov/nut-tree__shared";
 import { generateOutputPath } from "./generate-output-path.function";
 
 describe("generate-output-path", () => {

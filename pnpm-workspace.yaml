@@ -2,4 +2,5 @@ packages:
   - 'core/*'
   - 'providers/*'
   - 'examples/*'
+  - '!examples/screen-test'
   - 'e2e/*'

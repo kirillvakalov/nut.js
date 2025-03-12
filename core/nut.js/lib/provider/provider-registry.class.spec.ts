@@ -8,7 +8,7 @@ import {
   MouseProviderInterface,
   ScreenProviderInterface,
   WindowProviderInterface
-} from "@nut-tree/provider-interfaces";
+} from "@kirillvakalov/nut-tree__provider-interfaces";
 
 describe("DefaultProviderRegistry", () => {
   describe("non-defaults", () => {

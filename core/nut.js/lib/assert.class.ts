@@ -1,4 +1,4 @@
-import { FindInput, OptionalSearchParameters, Region } from "@nut-tree/shared";
+import { FindInput, OptionalSearchParameters, Region } from "@kirillvakalov/nut-tree__shared";
 import { ScreenClass } from "./screen.class";
 
 export class AssertClass {

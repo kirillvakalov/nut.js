@@ -1,6 +1,6 @@
 "use strict";
 
-const {keyboard, Key} = require("@nut-tree/nut-js");
+const {keyboard, Key} = require("@kirillvakalov/nut-tree__nut-js");
 
 describe("Keyboard test", () => {
     it("should open Spotlight on macOS", async () => {

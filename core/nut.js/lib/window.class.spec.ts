@@ -5,9 +5,9 @@ import {
   ProviderRegistry,
   ScreenProviderInterface,
   WindowProviderInterface
-} from "@nut-tree/provider-interfaces";
+} from "@kirillvakalov/nut-tree__provider-interfaces";
 import { mockPartial } from "sneer";
-import { Region, RGBA, WindowElement, WindowElementDescription, WindowElementQuery } from "@nut-tree/shared";
+import { Region, RGBA, WindowElement, WindowElementDescription, WindowElementQuery } from "@kirillvakalov/nut-tree__shared";
 import { pixelWithColor } from "../index";
 import { NoopLogProvider } from "./provider/log/noop-log-provider.class";
 
