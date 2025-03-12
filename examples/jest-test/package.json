@@ -9,9 +9,6 @@
     "email": "info@dry.software",
     "url": "https://dry.software"
   },
-  "scripts": {
-    "test": "jest --runInBand"
-  },
   "devDependencies": {
   },
   "dependencies": {

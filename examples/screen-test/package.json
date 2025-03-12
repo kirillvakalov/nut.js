@@ -9,9 +9,6 @@
     "email": "info@dry.software",
     "url": "https://dry.software"
   },
-  "scripts": {
-    "test": "jest --runInBand"
-  },
   "dependencies": {
     "@nut-tree/nut-js": "workspace:*",
     "@nut-tree/nl-matcher": "2.2.0"
