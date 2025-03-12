@@ -162,17 +162,17 @@ importers:
   providers/libnut:
     dependencies:
       '@kirillvakalov/nut-tree__libnut-darwin':
-        specifier: 2.7.1-2
-        version: 2.7.1-2
+        specifier: 2.7.2-1
+        version: 2.7.2-1
       '@kirillvakalov/nut-tree__libnut-linux':
-        specifier: 2.7.1-2
-        version: 2.7.1-2
+        specifier: 2.7.2-1
+        version: 2.7.2-1
       '@kirillvakalov/nut-tree__libnut-linux_arm64':
-        specifier: 2.7.1-2
-        version: 2.7.1-2
+        specifier: 2.7.2-1
+        version: 2.7.2-1
       '@kirillvakalov/nut-tree__libnut-win32':
-        specifier: 2.7.1-2
-        version: 2.7.1-2
+        specifier: 2.7.2-1
+        version: 2.7.2-1
       '@kirillvakalov/nut-tree__nut-js':
         specifier: '>=4.2.1-0'
         version: 4.2.1-2
@@ -1205,11 +1205,9 @@ packages:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-darwin@2.7.1-2:
-    resolution: {integrity: sha512-unh+cf91PEpH7XJZoHsP7JgQkOf8OSa9GpG9l03bEVjDzTjxiqs7FyLH7EaEwTOWbBfuuXZf1c7K8FFhuuHxNg==}
+  /@kirillvakalov/nut-tree__libnut-darwin@2.7.2-1:
+    resolution: {integrity: sha512-i88BsGDxyT8Vo++k+OjubIbHpD4LcsFjuCnVBj3DQJ4UeDTNCxriy9Y6M/Hs3/e4F7ReSnxedyBKEVDJCgAmHQ==}
     engines: {node: '>=10.15.3'}
-    cpu: [x64, arm64]
-    os: [darwin, linux, win32]
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
@@ -1227,22 +1225,18 @@ packages:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-linux@2.7.1-2:
-    resolution: {integrity: sha512-KMFYyzzZnbHulRSQQu9ZNmXxa+qHUpoDUZwXltsHdVx/AYQgyPS32ASbtwVn7Bi5TPIC6kRYwa5LKJWMllMxIw==}
+  /@kirillvakalov/nut-tree__libnut-linux@2.7.2-1:
+    resolution: {integrity: sha512-GFabhDKMgOL+ZXrXO4sE0bZ/F1SQROOgyoEi4m55sL5O0CrAHV/yPK+dlgDsLwZpzo9Cqskf0k7Vf2DKfVmxpg==}
     engines: {node: '>=10.15.3'}
-    cpu: [x64, arm64]
-    os: [darwin, linux, win32]
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-linux_arm64@2.7.1-2:
-    resolution: {integrity: sha512-iFS3Ump+C/MrfxrDZZ7ZwvANkBnM7ZTDzVmedLvKcTbLTAsuApQ8NyulkbC0mtFrimVqpXSsGTaj8e52+Zc3eA==}
+  /@kirillvakalov/nut-tree__libnut-linux_arm64@2.7.2-1:
+    resolution: {integrity: sha512-4LFyjovK9nocZRhTxOJzpzMwg/P8qiz+Caj4zqTaZAPoNEWegDwoP0ayaXTpw1+tx1cA+fqk81oNMCURnrDYzA==}
     engines: {node: '>=10.15.3'}
-    cpu: [x64, arm64]
-    os: [darwin, linux, win32]
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
@@ -1260,11 +1254,9 @@ packages:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-win32@2.7.1-2:
-    resolution: {integrity: sha512-9JQ5gm2RYHxXFZwLqWXC2EJUGGA92m6+5fzcYKwPTTCWY/3Sm4TAfxZSr1zWyGqKhvKwKSKSqDbyRSJHHO/56g==}
+  /@kirillvakalov/nut-tree__libnut-win32@2.7.2-1:
+    resolution: {integrity: sha512-zJuyPE3dwrT25nE83lz0FbBrcWNXkU8lXjmbD77g48DsQYjzquU2hnp9a/mNobUam9Gsr3DsqCilVq8NFLDrwQ==}
     engines: {node: '>=10.15.3'}
-    cpu: [x64, arm64]
-    os: [darwin, linux, win32]
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
