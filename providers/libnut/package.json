@@ -1,6 +1,6 @@
 {
   "name": "@kirillvakalov/nut-tree__libnut",
-  "version": "4.2.2-2",
+  "version": "4.2.2-3",
   "description": "libnut is an N-API module for desktop automation with node",
   "main": "dist/index",
   "typings": "dist/index",
@@ -13,15 +13,6 @@
   "bugs": {
     "url": "https://github.com/nut-tree/nut.js/issues"
   },
-  "os": [
-    "linux",
-    "darwin",
-    "win32"
-  ],
-  "cpu": [
-    "x64",
-    "arm64"
-  ],
   "keywords": [
     "GUI",
     "Automation",
@@ -50,11 +41,11 @@
   "engines": {
     "node": ">=10.15.3"
   },
-  "dependencies": {
-    "@kirillvakalov/nut-tree__libnut-darwin": "2.7.2-1",
-    "@kirillvakalov/nut-tree__libnut-linux": "2.7.2-1",
-    "@kirillvakalov/nut-tree__libnut-linux_arm64": "2.7.2-1",
-    "@kirillvakalov/nut-tree__libnut-win32": "2.7.2-1"
+  "optionalDependencies": {
+    "@kirillvakalov/nut-tree__libnut-darwin": "2.7.2-2",
+    "@kirillvakalov/nut-tree__libnut-linux": "2.7.2-2",
+    "@kirillvakalov/nut-tree__libnut-linux_arm64": "2.7.2-2",
+    "@kirillvakalov/nut-tree__libnut-win32": "2.7.2-2"
   },
   "devDependencies": {
     "@nut-tree/configs": "workspace:*",

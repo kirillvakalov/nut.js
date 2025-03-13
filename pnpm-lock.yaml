@@ -161,21 +161,22 @@ importers:
 
   providers/libnut:
     dependencies:
-      '@kirillvakalov/nut-tree__libnut-darwin':
-        specifier: 2.7.2-1
-        version: 2.7.2-1
-      '@kirillvakalov/nut-tree__libnut-linux':
-        specifier: 2.7.2-1
-        version: 2.7.2-1
-      '@kirillvakalov/nut-tree__libnut-linux_arm64':
-        specifier: 2.7.2-1
-        version: 2.7.2-1
-      '@kirillvakalov/nut-tree__libnut-win32':
-        specifier: 2.7.2-1
-        version: 2.7.2-1
       '@kirillvakalov/nut-tree__nut-js':
         specifier: '>=4.2.1-0'
         version: 4.2.1-2
+    optionalDependencies:
+      '@kirillvakalov/nut-tree__libnut-darwin':
+        specifier: 2.7.2-2
+        version: 2.7.2-2
+      '@kirillvakalov/nut-tree__libnut-linux':
+        specifier: 2.7.2-2
+        version: 2.7.2-2
+      '@kirillvakalov/nut-tree__libnut-linux_arm64':
+        specifier: 2.7.2-2
+        version: 2.7.2-2
+      '@kirillvakalov/nut-tree__libnut-win32':
+        specifier: 2.7.2-2
+        version: 2.7.2-2
     devDependencies:
       '@kirillvakalov/nut-tree__provider-interfaces':
         specifier: workspace:*
@@ -1205,14 +1206,18 @@ packages:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-darwin@2.7.2-1:
-    resolution: {integrity: sha512-i88BsGDxyT8Vo++k+OjubIbHpD4LcsFjuCnVBj3DQJ4UeDTNCxriy9Y6M/Hs3/e4F7ReSnxedyBKEVDJCgAmHQ==}
+  /@kirillvakalov/nut-tree__libnut-darwin@2.7.2-2:
+    resolution: {integrity: sha512-jDpzB7JDIWs0gcsaLuRr3BxRiQoNMctOb0a6ycI89+vdBQleapV/f6b53NthwQ1XDB/PLXmbRSOueY3eLgIt6g==}
     engines: {node: '>=10.15.3'}
+    cpu: [arm64, x64]
+    os: [darwin]
+    requiresBuild: true
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
+    optional: true
 
   /@kirillvakalov/nut-tree__libnut-linux@2.7.1-0:
     resolution: {integrity: sha512-vnR3aG4uS/5d6qfanBs92HUg7wmlsOlnZ0juZOiFesZYwH02d0JV/o+5gj5cqJBHbSuiCzwRG+O5jWzjPZbYJA==}
@@ -1225,23 +1230,31 @@ packages:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-linux@2.7.2-1:
-    resolution: {integrity: sha512-GFabhDKMgOL+ZXrXO4sE0bZ/F1SQROOgyoEi4m55sL5O0CrAHV/yPK+dlgDsLwZpzo9Cqskf0k7Vf2DKfVmxpg==}
+  /@kirillvakalov/nut-tree__libnut-linux@2.7.2-2:
+    resolution: {integrity: sha512-s6/C364feROURoaM9srciW4ff9ywL1NzAg6TVZjYh6rpbdxRrPdA2hWbSBXj3ZitgQAFHn2XdBV+q6ZZ3Szc3Q==}
     engines: {node: '>=10.15.3'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
+    optional: true
 
-  /@kirillvakalov/nut-tree__libnut-linux_arm64@2.7.2-1:
-    resolution: {integrity: sha512-4LFyjovK9nocZRhTxOJzpzMwg/P8qiz+Caj4zqTaZAPoNEWegDwoP0ayaXTpw1+tx1cA+fqk81oNMCURnrDYzA==}
+  /@kirillvakalov/nut-tree__libnut-linux_arm64@2.7.2-2:
+    resolution: {integrity: sha512-f/WvXs0X5tXfV02ChEnDw/A0hRRYlZK4P1CMRAHTNszgfuzD9k+ZbF+mhwfJBlOwbvrYzYcKv8e98GSmp56IPQ==}
     engines: {node: '>=10.15.3'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
+    optional: true
 
   /@kirillvakalov/nut-tree__libnut-win32@2.7.1-0:
     resolution: {integrity: sha512-pnvdyZCM/7ZF0/I2Xq9CWP+Hp/iPoTdA2vS+VdT7hTmnol8HI+k645aIL1L+6QoFuQXrTNcLiPr8RgKeprbXeQ==}
@@ -1254,14 +1267,18 @@ packages:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
 
-  /@kirillvakalov/nut-tree__libnut-win32@2.7.2-1:
-    resolution: {integrity: sha512-zJuyPE3dwrT25nE83lz0FbBrcWNXkU8lXjmbD77g48DsQYjzquU2hnp9a/mNobUam9Gsr3DsqCilVq8NFLDrwQ==}
+  /@kirillvakalov/nut-tree__libnut-win32@2.7.2-2:
+    resolution: {integrity: sha512-OUxTlVR2PmWpvPE/yRNDYRrJLB7Un1TNcv1kCM+V/X3N4YEzNr4CWbGAVdMvf6jaiSvqx2qNgMSetIcpOGziUA==}
     engines: {node: '>=10.15.3'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
     dependencies:
       bindings: 1.5.0
     optionalDependencies:
       '@kirillvakalov/nut-tree__node-mac-permissions': 2.2.1-0
     dev: false
+    optional: true
 
   /@kirillvakalov/nut-tree__libnut@4.2.1-2(@kirillvakalov/nut-tree__nut-js@4.2.1-2):
     resolution: {integrity: sha512-98vqNN2gwwUDlRn3noxC6+65kkiD8OTbqv8QWCoYUFvM0/X+O+ZYzKKyywosvlmtPKQAbLX/93XFMmB9bYa06w==}
@@ -2384,6 +2401,7 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
+    requiresBuild: true
     dev: false
 
   /fill-range@7.0.1:
