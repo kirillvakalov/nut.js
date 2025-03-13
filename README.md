@@ -1,3 +1,9 @@
+### Publishing new versions
+
+Run `npm login` and then `pnpm run publish:release`
+
+---
+
 # nut.js (Native UI Toolkit)
 
 |         |                                                 GitHub Actions                                                 |
