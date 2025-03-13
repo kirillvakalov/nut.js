@@ -1,6 +1,6 @@
 {
   "name": "@kirillvakalov/nut-tree__libnut",
-  "version": "4.2.2-3",
+  "version": "4.2.2-4",
   "description": "libnut is an N-API module for desktop automation with node",
   "main": "dist/index",
   "typings": "dist/index",
@@ -50,9 +50,11 @@
   "devDependencies": {
     "@nut-tree/configs": "workspace:*",
     "@kirillvakalov/nut-tree__shared": "workspace:*",
-    "@kirillvakalov/nut-tree__provider-interfaces": "workspace:*"
+    "@kirillvakalov/nut-tree__provider-interfaces": "workspace:*",
+    "bindings": "^1.5.0"
   },
   "peerDependencies": {
-    "@kirillvakalov/nut-tree__nut-js": ">=4.2.1-0"
+    "@kirillvakalov/nut-tree__nut-js": ">=4.2.1-0",
+    "bindings": "^1.5.0"
   }
 }

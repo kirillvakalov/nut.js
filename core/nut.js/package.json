@@ -1,6 +1,6 @@
 {
   "name": "@kirillvakalov/nut-tree__nut-js",
-  "version": "4.2.2-3",
+  "version": "4.2.2-4",
   "license": "Apache-2.0",
   "main": "dist/index",
   "typings": "dist/index",
